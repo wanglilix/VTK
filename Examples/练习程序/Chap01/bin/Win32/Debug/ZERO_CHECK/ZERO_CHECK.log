@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/1/13 16:28:46。
+     1>项目“D:\VTK\Examples\Chap01\bin\ZERO_CHECK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/VTK/Examples/Chap01/bin/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”。
+         正在对“Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VTK\Examples\Chap01\bin\ZERO_CHECK.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.26

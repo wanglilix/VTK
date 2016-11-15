@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(Chap04)
+FIND_PACKAGE(VTK REQUIRED)
+INCLUDE(${VTK_USE_FILE})
+ADD_EXECUTABLE(4.1_RenderWriteSingleImage 4.1_RenderWriteSingleImage.cpp)
+SET(VTK_LIBRARES "vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkInfovis;vtkGeovis;vtkViews;vtkCharts")
+TARGET_LINK_LIBRARIES(4.1_RenderWriteSingleImage ${VTK_LIBRARIES})

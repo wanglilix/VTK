@@ -1,0 +1,1 @@
+PATH=%PATH%;D:\VTK\VTK-5.10-bin\bin\Debug;D:\VTK\QT\bin

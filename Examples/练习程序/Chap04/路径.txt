@@ -1,0 +1,2 @@
+D:/VTK/Examples/Chap04/bin/Debug/4.1_RenderWriteSingleIma
+ge.exe D:/VTK/Examples/Chap04/data/lena.bmp

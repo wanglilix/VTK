@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/1/22 16:05:23。
+     1>项目“D:\VTK\Examples\Chap09\MFCDlg\tmp\vtkDialog.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“vtkDialog.dir\Debug\vtkDialog.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /I"D:\VTK\VTK-5.10-bin" /I"D:\VTK\VTK-5.10-bin\Common" /I"D:\VTK\VTK-5.10-bin\Utilities" /I"D:\VTK\VTK-5.10-bin\VolumeRendering" /I"D:\VTK\VTK-5.10-bin\Rendering" /I"D:\VTK\VTK-5.10-bin\Charts" /I"D:\VTK\VTK-5.10-bin\Chemistry" /I"D:\VTK\VTK-5.10-bin\GUISupport\MFC" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkalglib" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Views" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Charts" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\IO" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Common" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx" /I"D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include" /I"D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4" /I"D:\VTK\VTK-5.10-bin\Utilities\DICOMParser" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include" /I"D:\VTK\VTK-5.10-bin\Utilities\LSDyna" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna" /I"D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio" /I"D:\VTK\VTK-5.10-bin\Utilities\verdict" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt" /I"D:\VTK\VTK-5.10-bin\GUISupport\Qt" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart" /I"D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"vtkDialog.dir\Debug\\" /Fd"vtkDialog.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\CMAKE\VtkView.cpp
+         VtkView.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VTK\Examples\Chap09\MFCDlg\tmp\Debug\vtkDialog.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\VTK\VTK-5.10-bin\bin\Debug\vtkMFC.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkWidgets.lib" DelayImp.lib "D:\VTK\VTK-5.10-bin\bin\Debug\vtkHybrid.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkVolumeRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkIO.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGraphics.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkImaging.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkFiltering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkCommon.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtksys.lib" ws2_32.lib Delayimp.lib /DELAYLOAD:vtkMFC.dll /DELAYLOAD:vtkIO.dll /DELAYLOAD:vtkRendering.dll /DELAYLOAD:vtkGraphics.dll /DELAYLOAD:vtkHybrid.dll /DELAYLOAD:vtkFiltering.dll /DELAYLOAD:vtkCommon.dll /DELAYLOAD:vtkImaging.dll /MANIFEST /ManifestFile:"vtkDialog.dir\Debug\vtkDialog.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/VTK/Examples/Chap09/MFCDlg/tmp/Debug/vtkDialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/VTK/Examples/Chap09/MFCDlg/tmp/Debug/vtkDialog.lib" /MACHINE:X86 vtkDialog.dir\Debug\vtkDialog.res
+         vtkDialog.dir\Debug\vtkDialog.exe.embed.manifest.res
+         vtkDialog.dir\Debug\stdafx.obj
+         vtkDialog.dir\Debug\vtkDialog.obj
+         vtkDialog.dir\Debug\vtkDialogDlg.obj
+         vtkDialog.dir\Debug\VtkView.obj
+         vtkDialog.dir\Debug\vtkView3D.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"vtkDialog.dir\Debug\vtkDialog.exe.embed.manifest" /manifest vtkDialog.dir\Debug\vtkDialog.exe.intermediate.manifest d:\VS2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         vtkDialog.vcxproj -> D:\VTK\Examples\Chap09\MFCDlg\tmp\Debug\vtkDialog.exe
+       FinalizeBuildStatus:
+         正在删除文件“vtkDialog.dir\Debug\vtkDialog.unsuccessfulbuild”。
+         正在对“vtkDialog.dir\Debug\vtkDialog.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VTK\Examples\Chap09\MFCDlg\tmp\vtkDialog.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.23

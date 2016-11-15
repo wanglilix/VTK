@@ -1,0 +1,3 @@
+D:/VTK/Examples/Chap09/MFCDlg/tmp/CMakeFiles/ALL_BUILD.dir
+D:/VTK/Examples/Chap09/MFCDlg/tmp/CMakeFiles/vtkDialog.dir
+D:/VTK/Examples/Chap09/MFCDlg/tmp/CMakeFiles/ZERO_CHECK.dir

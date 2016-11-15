@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(Chap01)
+FIND_PACKAGE(VTK REQUIRED)
+INCLUDE(${VTK_USE_FILE})
+ADD_EXECUTABLE(1.3_TestVTKInstall 1.3_TestVTKInstall.cpp)
+SET(VTK_LIBRARES "vtkCommon;vtkFiltering;vtkImaging;vtkGraphics;vtkGenericFiltering;vtkIO;vtkRendering;vtkVolumeRendering;vtkHybrid;vtkWidgets;vtkInfovis;vtkGeovis;vtkViews;vtkCharts")
+TARGET_LINK_LIBRARIES(1.3_TestVTKInstall ${VTK_LIBRARIES})

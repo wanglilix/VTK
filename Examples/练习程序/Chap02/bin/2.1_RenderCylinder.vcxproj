@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{66910A41-E62C-30B0-A192-570AD51C9416}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>2.1_RenderCylinder</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\VTK\Examples\Chap02\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">2.1_RenderCylinder.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">2.1_RenderCylinder</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\VTK\Examples\Chap02\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">2.1_RenderCylinder.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">2.1_RenderCylinder</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\VTK\Examples\Chap02\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">2.1_RenderCylinder.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">2.1_RenderCylinder</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\VTK\Examples\Chap02\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">2.1_RenderCylinder.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">2.1_RenderCylinder</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkGenericFiltering.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkGeovis.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkCharts.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkViews.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkInfovis.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkWidgets.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkVolumeRendering.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkHybrid.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkRendering.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkImaging.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkGraphics.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkIO.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkFiltering.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtkCommon.lib;D:\VTK\VTK-5.10-bin\bin\Debug\vtksys.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VTK/Examples/Chap02/bin/Debug/2.1_RenderCylinder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VTK/Examples/Chap02/bin/Debug/2.1_RenderCylinder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkGenericFiltering.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkGeovis.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkCharts.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkViews.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkInfovis.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkWidgets.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkVolumeRendering.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkHybrid.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkRendering.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkImaging.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkGraphics.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkIO.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkFiltering.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtkCommon.lib;D:\VTK\VTK-5.10-bin\bin\Release\vtksys.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VTK/Examples/Chap02/bin/Release/2.1_RenderCylinder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VTK/Examples/Chap02/bin/Release/2.1_RenderCylinder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkGenericFiltering.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkGeovis.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkCharts.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkViews.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkInfovis.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkWidgets.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkVolumeRendering.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkHybrid.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkRendering.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkImaging.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkGraphics.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkIO.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkFiltering.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtkCommon.lib;D:\VTK\VTK-5.10-bin\bin\MinSizeRel\vtksys.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VTK/Examples/Chap02/bin/MinSizeRel/2.1_RenderCylinder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VTK/Examples/Chap02/bin/MinSizeRel/2.1_RenderCylinder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VTK\VTK-5.10-bin;D:\VTK\VTK-5.10-bin\Common;D:\VTK\VTK-5.10-bin\Utilities;D:\VTK\VTK-5.10-bin\VolumeRendering;D:\VTK\VTK-5.10-bin\Rendering;D:\VTK\VTK-5.10-bin\Charts;D:\VTK\VTK-5.10-bin\Chemistry;D:\VTK\VTK-5.10-bin\GUISupport\MFC;D:\VTK\VTK-5.10-bin\Utilities\vtkalglib;D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis;D:\VTK\VTK-5.10-src\VTK5.10.1\Views;D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid;D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering;D:\VTK\VTK-5.10-src\VTK5.10.1\Charts;D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry;D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx;D:\VTK\VTK-5.10-src\VTK5.10.1\IO;D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging;D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics;D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering;D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering;D:\VTK\VTK-5.10-src\VTK5.10.1\Common;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities;D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx;D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include;D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4;D:\VTK\VTK-5.10-bin\Utilities\DICOMParser;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser;D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include;D:\VTK\VTK-5.10-bin\Utilities\LSDyna;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna;D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary;D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio;D:\VTK\VTK-5.10-bin\Utilities\verdict;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src;D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt;D:\VTK\VTK-5.10-bin\GUISupport\Qt;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart;D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC;D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkGenericFiltering.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkGeovis.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkCharts.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkViews.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkInfovis.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkWidgets.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkVolumeRendering.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkHybrid.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkRendering.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkImaging.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkGraphics.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkIO.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkFiltering.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtkCommon.lib;D:\VTK\VTK-5.10-bin\bin\RelWithDebInfo\vtksys.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VTK/Examples/Chap02/bin/RelWithDebInfo/2.1_RenderCylinder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VTK/Examples/Chap02/bin/RelWithDebInfo/2.1_RenderCylinder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/VTK/Examples/Chap02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\VTK\CMake\bin\cmake.exe -HD:/VTK/Examples/Chap02 -BD:/VTK/Examples/Chap02/bin --check-stamp-file D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/VTK/Examples/Chap02/CMakeLists.txt;D:\VTK\Examples\Chap02\CMakeLists.txt;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\VTK-5.10-bin\VTKConfigVersion.cmake;D:\VTK\VTK-5.10-bin\VTKConfig.cmake;D:\VTK\VTK-5.10-bin\VTKConfigQt.cmake;D:\VTK\VTK-5.10-bin\VTKTargets.cmake;D:\VTK\VTK-5.10-bin\UseVTK.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeImportBuildSettings.cmake;D:\VTK\VTK-5.10-src\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;D:\VTK\Examples\Chap02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/VTK/Examples/Chap02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\VTK\CMake\bin\cmake.exe -HD:/VTK/Examples/Chap02 -BD:/VTK/Examples/Chap02/bin --check-stamp-file D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/VTK/Examples/Chap02/CMakeLists.txt;D:\VTK\Examples\Chap02\CMakeLists.txt;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\VTK-5.10-bin\VTKConfigVersion.cmake;D:\VTK\VTK-5.10-bin\VTKConfig.cmake;D:\VTK\VTK-5.10-bin\VTKConfigQt.cmake;D:\VTK\VTK-5.10-bin\VTKTargets.cmake;D:\VTK\VTK-5.10-bin\UseVTK.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeImportBuildSettings.cmake;D:\VTK\VTK-5.10-src\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;D:\VTK\Examples\Chap02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/VTK/Examples/Chap02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\VTK\CMake\bin\cmake.exe -HD:/VTK/Examples/Chap02 -BD:/VTK/Examples/Chap02/bin --check-stamp-file D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/VTK/Examples/Chap02/CMakeLists.txt;D:\VTK\Examples\Chap02\CMakeLists.txt;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\VTK-5.10-bin\VTKConfigVersion.cmake;D:\VTK\VTK-5.10-bin\VTKConfig.cmake;D:\VTK\VTK-5.10-bin\VTKConfigQt.cmake;D:\VTK\VTK-5.10-bin\VTKTargets.cmake;D:\VTK\VTK-5.10-bin\UseVTK.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeImportBuildSettings.cmake;D:\VTK\VTK-5.10-src\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;D:\VTK\Examples\Chap02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/VTK/Examples/Chap02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\VTK\CMake\bin\cmake.exe -HD:/VTK/Examples/Chap02 -BD:/VTK/Examples/Chap02/bin --check-stamp-file D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/VTK/Examples/Chap02/CMakeLists.txt;D:\VTK\Examples\Chap02\CMakeLists.txt;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCCompiler.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\Examples\Chap02\bin\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\VTK\VTK-5.10-bin\VTKConfigVersion.cmake;D:\VTK\VTK-5.10-bin\VTKConfig.cmake;D:\VTK\VTK-5.10-bin\VTKConfigQt.cmake;D:\VTK\VTK-5.10-bin\VTKTargets.cmake;D:\VTK\VTK-5.10-bin\UseVTK.cmake;D:\VTK\CMake\share\cmake-3.4\Modules\CMakeImportBuildSettings.cmake;D:\VTK\VTK-5.10-src\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;D:\VTK\Examples\Chap02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\VTK\Examples\Chap02\bin\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\2.1_RenderCylinder.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/VTK/Examples/Chap02/bin/ZERO_CHECK.vcxproj">
+      <Project>97703FE1-A3BF-3194-9DBD-2CBD0372B3E3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

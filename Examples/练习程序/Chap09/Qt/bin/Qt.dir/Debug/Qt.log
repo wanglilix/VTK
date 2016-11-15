@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/1/19 21:24:31。
+     1>项目“D:\VTK\Examples\Chap09\Qt\bin\Qt.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Qt.dir\Debug\Qt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/VTK/Examples/Chap09/Qt/CMakeLists.txt
+         CMake does not need to re-run because D:\VTK\Examples\Chap09\Qt\bin\CMakeFiles\generate.stamp is up-to-date.
+         Generating ui_ProjectMainWindow.h
+         Generating moc_ProjectMainWindow.cxx
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /I"D:\VTK\VTK-5.10-bin" /I"D:\VTK\VTK-5.10-bin\Common" /I"D:\VTK\VTK-5.10-bin\Utilities" /I"D:\VTK\VTK-5.10-bin\VolumeRendering" /I"D:\VTK\VTK-5.10-bin\Rendering" /I"D:\VTK\VTK-5.10-bin\Charts" /I"D:\VTK\VTK-5.10-bin\Chemistry" /I"D:\VTK\VTK-5.10-bin\GUISupport\MFC" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkalglib" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Infovis" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Geovis" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Views" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\VolumeRendering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Hybrid" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Widgets" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Charts" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Chemistry" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Rendering\Testing\Cxx" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\IO" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Imaging" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Graphics" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GenericFiltering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Filtering" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Common" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Common\Testing\Cxx" /I"D:\VTK\VTK-5.10-bin\Utilities\vtknetcdf" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtknetcdf\include" /I"D:\VTK\VTK-5.10-bin\Utilities\vtklibproj4" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtklibproj4" /I"D:\VTK\VTK-5.10-bin\Utilities\DICOMParser" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\DICOMParser" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkfreetype\include" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkfreetype\include" /I"D:\VTK\VTK-5.10-bin\Utilities\LSDyna" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\LSDyna" /I"D:\VTK\VTK-5.10-bin\Utilities\MaterialLibrary" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\MaterialLibrary" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkmetaio" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkmetaio" /I"D:\VTK\VTK-5.10-bin\Utilities\verdict" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\verdict" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\src" /I"D:\VTK\VTK-5.10-bin\Utilities\vtkhdf5\hl\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkhdf5\hl\src" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\utf8\source" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt" /I"D:\VTK\VTK-5.10-bin\GUISupport\Qt" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\Qt\Chart" /I"D:\VTK\VTK-5.10-bin\GUISupport\Qt\Chart" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\GUISupport\MFC" /I"D:\VTK\VTK-5.10-src\VTK5.10.1\Utilities\vtkalglib" /ID:\VTK\QT\include /ID:\VTK\QT\include\QtGui /ID:\VTK\QT\include\QtCore /ID:\VTK\Examples\Chap09\Qt /ID:\VTK\Examples\Chap09\Qt\bin /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D QT_DLL /D QT_GUI_LIB /D QT_CORE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Qt.dir\Debug\\" /Fd"Qt.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp ..\ProjectMainWindow.cpp moc_ProjectMainWindow.cxx
+         main.cpp
+         ProjectMainWindow.cpp
+         moc_ProjectMainWindow.cxx
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Qt.dir\Debug\Qt.exe.embed.manifest.res" Qt.dir\Debug\Qt_manifest.rc 
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VTK\Examples\Chap09\Qt\bin\Debug\Qt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGenericFiltering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGeovis.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkCharts.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\QVTK.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkViews.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkInfovis.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkWidgets.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkVolumeRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkHybrid.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkImaging.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGraphics.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkIO.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkFiltering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkCommon.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtksys.lib" ws2_32.lib D:\VTK\QT\lib\QtWebKitd4.lib D:\VTK\QT\lib\QtGuid4.lib D:\VTK\QT\lib\QtSqld4.lib D:\VTK\QT\lib\QtNetworkd4.lib D:\VTK\QT\lib\QtCored4.lib /MANIFEST /ManifestFile:"Qt.dir\Debug\Qt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/VTK/Examples/Chap09/Qt/bin/Debug/Qt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/VTK/Examples/Chap09/Qt/bin/Debug/Qt.lib" /MACHINE:X86 Qt.dir\Debug\Qt.exe.embed.manifest.res
+         Qt.dir\Debug\main.obj
+         Qt.dir\Debug\ProjectMainWindow.obj
+         Qt.dir\Debug\moc_ProjectMainWindow.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Qt.dir\Debug\Qt.exe.embed.manifest" /manifest Qt.dir\Debug\Qt.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Qt.dir\Debug\Qt.exe.embed.manifest.res" Qt.dir\Debug\Qt_manifest.rc 
+       LinkEmbedManifest:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VTK\Examples\Chap09\Qt\bin\Debug\Qt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGenericFiltering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGeovis.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkCharts.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\QVTK.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkViews.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkInfovis.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkWidgets.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkVolumeRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkHybrid.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkRendering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkImaging.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkGraphics.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkIO.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkFiltering.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtkCommon.lib" "D:\VTK\VTK-5.10-bin\bin\Debug\vtksys.lib" ws2_32.lib D:\VTK\QT\lib\QtWebKitd4.lib D:\VTK\QT\lib\QtGuid4.lib D:\VTK\QT\lib\QtSqld4.lib D:\VTK\QT\lib\QtNetworkd4.lib D:\VTK\QT\lib\QtCored4.lib /MANIFEST /ManifestFile:"Qt.dir\Debug\Qt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/VTK/Examples/Chap09/Qt/bin/Debug/Qt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/VTK/Examples/Chap09/Qt/bin/Debug/Qt.lib" /MACHINE:X86 Qt.dir\Debug\Qt.exe.embed.manifest.res
+         Qt.dir\Debug\main.obj
+         Qt.dir\Debug\ProjectMainWindow.obj
+         Qt.dir\Debug\moc_ProjectMainWindow.obj  /machine:X86 /debug 
+         Qt.vcxproj -> D:\VTK\Examples\Chap09\Qt\bin\Debug\Qt.exe
+       FinalizeBuildStatus:
+         正在删除文件“Qt.dir\Debug\Qt.unsuccessfulbuild”。
+         正在对“Qt.dir\Debug\Qt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VTK\Examples\Chap09\Qt\bin\Qt.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.56
